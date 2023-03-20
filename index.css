@@ -1,0 +1,262 @@
+* {
+    padding-right: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(143, 142, 138);
+}
+
+#logo {
+    position: relative;
+    margin-top: 25px;
+}
+
+.cover {
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.container {
+
+    height: 395px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 30px;
+    text-align: center;
+    border-color: rgb(217, 221, 225);
+    border-radius: 0px;
+    border-style: solid;
+
+}
+
+#email,
+#Password {
+    background-color: rgb(252, 251, 251);
+    padding-left: 10px;
+    margin-top: 8px;
+    position: relative;
+    border-color: rgb(230, 234, 236);
+    text-align: left;
+    height: 37px;
+    width: 270px;
+    font-size: 12px;
+    border-radius: 3.5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn {
+    width: 270px;
+    height: 32px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: #75a1f2;
+    margin-top: 15px;
+    font-size: 15px;
+    border: none;
+}
+
+h4 {
+    text-decoration: #000000;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bx-sl {
+    position: centre;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    top: 3px;
+}
+
+#login_fb {
+    color: rgb(29, 33, 105);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: -2px;
+    color: rgb(50, 102, 170);
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.container-2 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    position: centre;
+    cursor: pointer;
+    color: beige;
+    padding-left: 5px;
+ 
+}
+
+.container-3 {
+    height: 65px;
+    width: 340px;
+    margin-top: 430px;
+    position: absolute;
+    margin-left: -340px;
+    border-color: rgb(229, 232, 235);
+    border-radius: 0px;
+    border-style: solid;
+    color: rgb(39, 162, 244);
+}
+
+#signup {
+    position: centre;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.box {
+    margin-top: 30px;
+    color: rgb(176, 183, 189);
+}
+
+.apps_link {
+    position: absolute;
+    margin-top: 495px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -200px;
+    
+}
+
+.google_play {
+    position: absolute;
+    margin-top: 545px;
+    margin-left: -290px;
+}
+
+.microsoft {
+    position: absolute;
+    margin-top: 545px;
+    margin-left: -140px;
+}
+
+.footer {
+    justify-content: space-between;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-left: -800px;
+    margin-right: 110px;
+    margin-top: 650px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#a:link {
+    text-decoration: none;
+}
+
+#a:visited {
+    text-decoration: none;
+}
+
+#a:hover {
+    text-decoration: underline;
+}
+
+#a:active {
+    text-decoration: underline;
+}
+
+#b:link {
+    text-decoration: none;
+}
+
+#b:visited {
+    text-decoration: none;
+}
+
+#b:hover {
+    text-decoration: underline;
+}
+
+#b:active {
+    text-decoration: underline;
+}
+
+#c:link {
+    text-decoration: none;
+}
+
+#c:visited {
+    text-decoration: none;
+}
+
+#c:hover {
+    text-decoration: underline;
+}
+
+#c:active {
+    text-decoration: underline;
+}
+
+#f:link {
+    text-decoration: none;
+}
+
+#f:visited {
+    text-decoration: none;
+}
+
+#f:hover {
+    text-decoration: underline;
+}
+
+#f:active {
+    text-decoration: underline;
+}
+
+#e:link {
+    text-decoration: none;
+}
+
+#e:visited {
+    text-decoration: none;
+}
+
+#e:hover {
+    text-decoration: underline;
+}
+
+#e:active {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: relative;
+    bottom: -760px;
+    right: 400px;
+    bottom: 2px;
+    color: rgb(136, 138, 138);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#language-picker-select {
+    border: none;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(127, 130, 130);
+    position: relative;
+    right: 470px;
+    top: 15px;
+}
